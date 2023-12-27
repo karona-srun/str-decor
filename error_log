@@ -1,0 +1,20 @@
+[06-Nov-2023 22:29:48 America/New_York] PHP Warning:  require(/home/strdbsmm/public_html/str-decor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/strdbsmm/public_html/str-decor/artisan on line 18
+[06-Nov-2023 22:29:48 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/strdbsmm/public_html/str-decor/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/strdbsmm/public_html/str-decor/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/strdbsmm/public_html/str-decor/artisan on line 18
+[06-Nov-2023 22:32:48 America/New_York] PHP Warning:  require(/home/strdbsmm/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/strdbsmm/public_html/artisan on line 18
+[06-Nov-2023 22:32:48 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/strdbsmm/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/strdbsmm/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/strdbsmm/public_html/artisan on line 18
+[06-Nov-2023 22:32:58 America/New_York] PHP Warning:  require(/home/strdbsmm/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/strdbsmm/public_html/artisan on line 18
+[06-Nov-2023 22:32:58 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/strdbsmm/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/strdbsmm/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/strdbsmm/public_html/artisan on line 18
+[06-Nov-2023 22:33:13 America/New_York] PHP Warning:  require(/home/strdbsmm/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/strdbsmm/public_html/artisan on line 18
+[06-Nov-2023 22:33:13 America/New_York] PHP Fatal error:  Uncaught Error: Failed opening required '/home/strdbsmm/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/strdbsmm/public_html/artisan:18
+Stack trace:
+#0 {main}
+  thrown in /home/strdbsmm/public_html/artisan on line 18

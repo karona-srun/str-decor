@@ -57,7 +57,7 @@
                                         </div>
                                         <div class="col-sm-3">
                                             <div class="form-group">
-                                                <label>{{ __('app.product_category') }} <small
+                                                <label>{{ __('app.product_sub_category') }} <small
                                                         class="text-red">*</small></label>
                                                 <select class="form-control select2" name="product_sub_category"
                                                     style="width: 100%;">

@@ -46,7 +46,7 @@
                                                     <option value="">{{ __('app.table_choose') }}</option>
                                                     @foreach ($product_category as $item)
                                                         <option value="{{ $item->id }}" {{ $product->product_category_id == $item->id ? "selected" : "" }}>
-                                                            {{ $item->name }}</option>
+                                                            {{ $item->code }} | {{ $item->name }}</option>
                                                     @endforeach
                                                 </select>
                                                 @if ($errors->has('product_category'))
@@ -64,7 +64,7 @@
                                                     <option value="">{{ __('app.table_choose') }}</option>
                                                     @foreach ($product_sub_category as $psc)
                                                         <option value="{{ $psc->id }}" {{ $product->product_sub_category_id == $psc->id ? "selected" : "" }}>
-                                                            {{ $psc->name }}</option>
+                                                            {{ $psc->code }} | {{ $psc->name }}</option>
                                                     @endforeach
                                                 </select>
                                                 @if ($errors->has('product_sub_category'))

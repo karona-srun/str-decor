@@ -18,7 +18,7 @@
                             </div>
                             <div class="col-md-7 col-sm-12 p-5">
                                 <div class="form-group">
-                                    <h5><i class="fas fa-phone-volume mr-2"></i> <strong>{{ __('app.phone') }}{{ __('app.contact') }}</strong></h5>
+                                    <h5><i class="fas fa-phone-volume mr-2"></i> <strong>{{ __('app.phone') }}</strong></h5>
                                     <p>{{ $profile->tel }}</p>
                                 </div>
                                 <div class="form-group">

@@ -113,7 +113,7 @@ class ProductController extends Controller
             return Redirect::back()->withErrors($validator)->withInput();
         }
 
-        $imageName = '';
+        $imageName = 'product_image.png';
         if ($request->hasFile('photo')) {
             $imageName = 'product_' . time() . rand(1, 99999) . '.' . $request->photo->getClientOriginalExtension();
             $imageName = str_replace(' ', '_', $imageName);
@@ -132,7 +132,7 @@ class ProductController extends Controller
         $product->buying_date = $request->buying_date ?? now()->format('Y-m-d');
         $product->store_stock = $request->store_stock ?? 0;
         $product->warehouse = $request->warehouse ?? 0;
-        $product->photo = $imageName ?? NULL;
+        $product->photo = $imageName;
         $product->description = $request->description;
         $product->note = $request->note;
         $product->created_by = Auth::user()->id;
